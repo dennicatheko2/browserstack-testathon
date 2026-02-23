@@ -10,5 +10,14 @@
   "tests/test_login.py::test_login[data2]": true,
   "tests/test_login.py::test_login[data3]": true,
   "tests/test_login.py::test_login[data4]": true,
-  "tests/auth/negative/test_login.py::test_login_with_empty_fields": true
+  "tests/auth/negative/test_login.py::test_login_with_empty_fields": true,
+  "tests/cart_management/test_cart.py": true,
+  "tests/cart_management/test_checkout.py": true,
+  "tests/favourites/test_favourites.py": true,
+  "tests/orders/test_orders.py": true,
+  "tests/cart_management/test_add_to_cart_and_checkout.py::test_user_can_checkout_successfully": true,
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[Samsung]": true,
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[Apple]": true,
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[Google]": true,
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[OnePlus]": true
 }

@@ -5,6 +5,7 @@
   "tests/auth/positive/test_login.py::test_fav_user_login",
   "tests/auth/positive/test_login.py::test_image_cannot_load_user_login",
   "tests/auth/positive/test_login.py::test_locked_user_cannot_login",
+  "tests/cart_management/test_add_to_cart_and_checkout.py::test_user_can_checkout_successfully",
   "tests/test_login.py::test_demo_user_can_login",
   "tests/test_login.py::test_existing_orders_user_login",
   "tests/test_login.py::test_fav_user_login",
@@ -16,5 +17,9 @@
   "tests/test_login.py::test_login[data2]",
   "tests/test_login.py::test_login[data3]",
   "tests/test_login.py::test_login[data4]",
-  "tests/test_smoke.py::test_homepage_loads"
+  "tests/test_smoke.py::test_homepage_loads",
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[Apple]",
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[Google]",
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[OnePlus]",
+  "tests/vendor_filtering_and_product_listing/test_vendor_filter.py::test_filter_by_vendor_shows_correct_products[Samsung]"
 ]
