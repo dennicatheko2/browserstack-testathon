@@ -6,7 +6,7 @@ test_data = load_test_cases("Cart")
 
 @pytest.mark.parametrize("data", test_data)
 def test_cart(driver, data):
-    login(driver, "demoUser", "password123")
+    login(driver, "demouser", "testingsfun99")
 
     # Example add to cart
     driver.find_element("css selector", ".add-to-cart").click()

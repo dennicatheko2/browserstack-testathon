@@ -1,6 +1,6 @@
 test_id,username,password,expected
-TC01,lockedUser,secret123,login_failed
-TC02,demoUser,secret123,login_success
-TC03,image_not_loadingUser,secret123,login_success
-TC04,existing_orders_user,secret123,login_success
-TC05,fav_user,secret123,login_success
+TC01,lockedUser,testingisfun99,login_failed
+TC02,demoUser,testingisfun99,login_success
+TC03,image_not_loadingUser,testingisfun99,login_success
+TC04,existing_orders_user,testingisfun99,login_success
+TC05,fav_user,testingisfun99login_success

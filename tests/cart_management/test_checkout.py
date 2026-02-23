@@ -6,7 +6,7 @@ test_data = load_test_cases("Checkout")
 
 @pytest.mark.parametrize("data", test_data)
 def test_checkout(driver, data):
-    login(driver, "demoUser", "password123")
+    login(driver, "demouser", "testingsfun99")
 
     driver.find_element("css selector", ".add-to-cart").click()
     driver.find_element("id", "checkout").click()
